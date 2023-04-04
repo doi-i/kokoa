@@ -1,3 +1,3 @@
-# Kokoa cloncoding
+# Kokoa clone coding
 
 Let's get it
