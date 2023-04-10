@@ -1,0 +1,60 @@
+
+
+.user__whole i {
+    font-size: 30px;
+    margin-right: 7px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.user__contact {
+    display: flex;
+    align-items: center;
+}
+
+.user__contact i {
+    font-size : 20px;
+    margin-left: 5px;
+    margin-top: 3px;
+    color: tomato;
+}
+
+
+.sug_head {
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 300;
+    color:rgba(37, 37, 37, 0.9);
+}
+
+.more-icon-dot {
+    position: relative;
+}
+
+.hdd-dot {
+   right: 25px;
+}
+
+.sug_body {
+    display: flex;
+    justify-content: space-around;
+}
+.sug__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sug__list img {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+}
+
+.sug__name {
+    font-size: 12px;
+    font-weight: 300;
+    color:rgba(0, 0, 0, 0.6);
+    margin-top: 5px;
+}

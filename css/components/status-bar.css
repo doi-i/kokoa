@@ -1,0 +1,45 @@
+
+.status-bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+    padding: 5px 8px;
+    font-size:smaller;
+    position: fixed;
+    width: 100%;
+
+}
+
+.status-bar__column {
+    width: 33%;
+
+}
+
+
+.status-bar__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.status-bar__column .fa-battery-full {
+   position:relative;
+   left:5px;
+    
+}
+
+.status-bar__column .fa-bolt {
+    font-size: 11px;
+    color: rgba(255, 255, 255);
+    position:relative;
+    left: -10px;
+    top: -0.675px;
+    text-shadow: -1px 0 3px rgba(0, 0, 0, 0.5), 1px 0 rgba(0, 0, 0, 0.5), 1px 0 rgba(0, 0, 0, 0.5), -1px 0 rgba(0, 0, 0, 0.5);
+}

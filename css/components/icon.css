@@ -1,0 +1,45 @@
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom : var(--bottom);
+
+ }
+
+ .icon-find {
+   margin-top: 40px;
+ }
+
+ .icon-more {
+
+   margin-top: 30px;
+   flex-wrap: wrap;
+ }
+
+ .icon-more .icon__column {
+   width: 25%;
+ }
+
+ .icon__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+ }
+
+ .icon__column i {
+    font-size: 25px;
+    color:rgba(37, 37, 37, 0.9);
+ }
+
+ .icon__info {
+    padding: 15px 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    color:rgba(37, 37, 37, 0.683);
+ }

@@ -1,0 +1,59 @@
+.nav__list {
+    width:100%;
+    position:fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 17px 0px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__btn i {
+    font-size: 25px;
+    color: rgb(37, 37, 37);
+}
+
+.nav__btn:first-child {
+    margin-left: 40px;
+}
+
+.nav__btn:last-child {
+    margin-right: 40px;
+    position: relative;
+}
+
+.nav__btn:nth-child(2) {
+    position:relative;
+}
+
+  
+@keyframes fun-badge {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translateY(5px
+        );
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+.nav__notification {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+  }
+  
+.friends-noti {
+    animation: fun-badge 1s ease infinite;
+
+}
+  
+.nav-dot {
+    left: 25px;
+    bottom: 20px;
+  }
